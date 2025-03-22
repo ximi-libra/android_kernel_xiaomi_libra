@@ -707,8 +707,8 @@ __SYSCALL(__NR_getrandom, sys_getrandom)
 __SYSCALL(__NR_memfd_create, sys_memfd_create)
 #define __NR_bpf 280
 __SYSCALL(__NR_bpf, sys_ni_syscall)
-#define __NR_execveat 281
-__SC_COMP(__NR_execveat, sys_ni_syscall, sys_ni_syscall)
+//#define __NR_execveat 281
+//__SC_COMP(__NR_execveat, sys_ni_syscall, sys_ni_syscall)
 #define __NR_userfaultfd 282
 __SYSCALL(__NR_userfaultfd, sys_ni_syscall)
 #define __NR_membarrier 283
